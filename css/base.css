@@ -1,0 +1,197 @@
+/*agensement barre de navigation*/
+.nv-navbar {
+	background-color: #093BA4;
+	box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+	background-size: cover;
+	z-index: 99;
+	color: #F6CA00;
+}
+
+.nv-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom .3s ease-in-out, border-color .2s ease;
+	color: #F6CA00;
+}
+
+.nv-navbar .nav-link:hover {
+	padding-bottom: 20px;
+	border-bottom-color: #F6CA00;
+	color: #F6CA00;
+}
+
+.nv-navbar .button{
+	color: #F6CA00;
+}
+.navbar-brand{
+	color: #F6CA00;
+}
+@font-face{
+	font-weight: bold;
+	font-family: OldLondon;
+	/*src: url(fonts/);*/
+}
+/*agenssement bannière*/
+.banner {
+	background: url('/images/louis1.jpg') center center fixed 
+	no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.banner .banner-desc{
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+.banner-desc-2{
+	color: #fff;
+}
+
+.dropdown-item:hover {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom .3s ease-in-out, border-color .2s ease;
+	padding-bottom: 20px;
+	border-bottom-color: #F6CA00;
+}
+/*agenssement du boutton rechcherche*/
+.btn-outline-success {
+	background-color: #F6CA00;
+	color: #093BA4; 	
+}
+/**/
+body {
+	background-color: #BDC3C7;
+}
+/*Tout l'arrangement du footer*/
+.contenu {
+	flex: 1 0 auto;
+}
+footer {	
+	flex-shrink: 0;
+	background-color: #919191;
+	width: 100%;
+	
+}
+.contenu-footer {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 50px 0 100px;
+	background-color: #919191;
+	color: #383838;
+}
+.bloc {
+	width: 25%;
+	margin: 0 30px;
+}
+.footer-contact h3,
+.footer-adresse h3,
+.footer-info h3 {
+	font-size: 25px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #383838;
+}
+.footer-contact p {
+	padding: 5px 0;
+}
+.liste-contact,
+.liste-adresse,
+.liste-info {
+	list-style-type: none;
+}
+.liste-info li {
+	padding: 2px 0;
+}
+.liste-info li a,
+.liste-adresse li a,
+.liste-contact li a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #383838;
+	
+}
+.liste-info a: hover {
+	
+}
+
+.liste-adresse {
+	padding: 2px 0;
+}
+/*arrangement footer sur différente taille d'écran*/
+@media screen and (max-width: 1300px) {
+	.contenu-footer {
+		width: 700px;
+		flex-wrap: wrap;	
+	}
+	.bloc {
+		width: 40%;
+		margin:0 0;
+	}
+	.bloc: nth-child (1),
+	.bloc: nth-child (2) {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.contenu-footer {
+		width: 320px;
+	}
+	.bloc {
+		width :300px;
+		margin: 30px 30px;
+	}
+	.bloc: nth-child (1),
+	.bloc: nth-child (2) {
+		margin-bottom: 30px;
+	}
+	.bloc:nth-child (1) {
+		margin-top: 0;
+	}
+}
+.row .card {
+	background-color: #BDC3C7;
+}
+/* grosse ligne sépraration*/
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+.main-container{
+	padding-top: 50px;
+	background-color: #BDC3C7;
+}
+
+.index-intro{
+	width: 100%;
+	background-color: #f3f3f3;
+	background-color: #BDC3C7;
+}
+
+.index-intro .jumbotron .couturières{
+	color: white;
+	padding: 200px 60px;
+	margin: 0px;
+	background-image: url('/images/outil.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #BDC3C7;
+}
+.index-intro .jumbotron .couturières h3 {
+	font-size: 50px;
+	background-color: #BDC3C7;
+}
+
+/* Ajouts de Pat */
+.shadowPat { box-shadow: 0 20px 15px -15px rgba( 0,0,0,.6); }
+.constrained { max-width: 100%; height: auto; }
